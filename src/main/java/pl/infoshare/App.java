@@ -9,11 +9,7 @@ import java.util.Scanner;
  */
 public class App {
     public static void main(String[] args) {
-        Byte name = 25;
-        String city = "Gdynia ccdsdsdsczzzz";
-        System.out.println(name + "\n" + "   " + city);
-        //System.out.println(name);
-        //System.out.println(city);
+
 
         char wiek = 'a';
         switch (wiek) {
@@ -40,10 +36,10 @@ short age= 11;
         Scanner scanner = new Scanner(System.in);
         System.out.print("podaj liczbe calkowita:");
         byte aga = scanner.nextByte();
-        if (age != byte)
-        {
-            System.out.println("zla warosc liczby");
-        }
+       // if (age != byte)
+    //    {
+      //      System.out.println("zla warosc liczby");
+      //  }
         double agaa = aga;
         System.out.println("Liczba zmiennoprzecinkowa " +agaa);
 

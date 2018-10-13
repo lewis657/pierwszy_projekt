@@ -1,27 +1,43 @@
 package pl.infoshare;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Drugi Proogram z zajęć drugich
+ * Trzeci Proogram z zajęć drugich
  */
-public class C02Z02 {
+public class C02Z03 {
     public static void main(String[] args) {
+        /*
+        Console console = System.console();
+        String username = console.readLine("Username: ");
+        char[] password = console.readPassword("Password: ");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("podaj wiek:");
-        byte age = scanner.nextByte();
-        if (age > 123 || age <= 0) {
-            System.exit(1);
-        }
-        if (age >= 18)
-        {
-            System.out.println("Jesteś pełnoletni! \n Twój wiek to: " +age);
-        }
-        else
-        {
-            System.out.println("Nie jesteś pełnoletni! \n Twój wiek to: "+age);
-        }
+*/
 
+        String[]  Password =  {"123","321"};
+        String[] Username =  {"user", "admin"};
+
+        Scanner input1 = new Scanner(System.in);
+        System.out.print("Nazwa użytkownika : ");
+        String user = input1.next();
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.print("Hasło : ");
+        String pass = input2.next();
+
+        //if (username.equals(Username) && password.equals(Password)) {
+
+        if (Arrays.asList(Username).contains(user) && Arrays.asList(Password).contains(pass))
+        {
+            System.out.println("Dostęp uzyskany! \nWitaj: " + user);
+        }
+        else if (user.equals(Username)) {
+            System.out.println("Złe hasło!");
+        } else if (pass.equals(Password)) {
+            System.out.println("Błędny użytkownik!");
+        } else {
+            System.out.println("Nie ma takiego konta! \n Uwaga:Wielkość liter ma znaczenie!");
+        }
     }
 }

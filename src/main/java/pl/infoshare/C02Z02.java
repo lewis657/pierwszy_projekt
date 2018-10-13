@@ -3,7 +3,7 @@ package pl.infoshare;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * Drugi Proogram z zajęć drugich
  */
 public class C02Z02 {
     public static void main(String[] args) {
@@ -12,7 +12,8 @@ public class C02Z02 {
         System.out.print("podaj wiek:");
         byte age = scanner.nextByte();
         if (age > 123 || age <= 0) {
-            System.exit(1);
+            System.out.println("Zastanów się!");
+            System.exit(0);
         }
         if (age >= 18)
         {

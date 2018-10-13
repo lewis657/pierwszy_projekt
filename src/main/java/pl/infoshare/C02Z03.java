@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class C02Z03 {
     public static void main(String[] args) {
         /*
+        Nie mimo importu consoli nie odpala mi ;(
         Console console = System.console();
         String username = console.readLine("Username: ");
         char[] password = console.readPassword("Password: ");

@@ -9,9 +9,8 @@ import java.util.Scanner;
 public class lotto {
     public static void main(String[] args) {
         int[] numbers = new int[49];
-        //int[] numbers = new int[49];
-        int[] winningNumbers = new int[6]; //array holding 6 random numbers
-        int[] userNumber = new int[6];//array holding the input
+        int[] winningNumbers = new int[6];
+        int[] userNumber = new int[6];
         Scanner theNumbers = new Scanner(System.in);
         int guesses;
         int counter = 0;

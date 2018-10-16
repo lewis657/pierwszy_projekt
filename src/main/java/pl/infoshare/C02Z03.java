@@ -1,7 +1,7 @@
 package pl.infoshare;
-
 import java.util.Arrays;
 import java.util.Scanner;
+
 
 /**
  * Trzeci Proogram z zajęć drugich
@@ -10,11 +10,24 @@ public class C02Z03 {
     public static void main(String[] args) {
         /*
         Nie mimo importu consoli nie odpala mi ;(
-        Console console = System.console();
-        String username = console.readLine("Username: ");
-        char[] password = console.readPassword("Password: ");
 
-*/
+
+        Console console = System.console();
+        if (console == null) {
+            System.out.println("No console: non-interactive mode!");
+            System.exit(0);
+        }
+        //Object obj = null;
+        //obj.toString();
+        Console console = System.console();
+        System.out.print("Enter your password: ");
+        char[] password = console.readPassword();
+        */
+
+       // Console console = System.console();
+        //System.out.print("Enter your password: ");
+        //char[] password = console.readPassword();
+
 
         String[]  Password =  {"123","321"};
         String[] Username =  {"user", "admin"};

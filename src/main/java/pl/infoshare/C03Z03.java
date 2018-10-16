@@ -1,45 +1,40 @@
 package pl.infoshare;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
- * Trzeci Proogram z zajęć drugich
+ * Inaczej zrobione trochę pętlowanie
+ * miałem problem z zapisem do tablicy stąd arraylist
  */
-public class C03Z02 {
+public class C03Z03 {
     public static void main(String[] args) {
 
 
 // wersja by lewis
-        /*
-        int [][] arr20 = new int [10][10];
-        for (int p=1 ; p <arr20.length +1 ; p++)
+        Integer array[] = new Integer[0];
+        ArrayList<Integer> List = new ArrayList<Integer>(Arrays.asList(array));
+        Scanner scanner = new Scanner(System.in);
+        int i = 0 ;
+        Byte counter = 0;
+        Integer value ;
+        // zmieniłem na 3 ;)
+        while (counter <= 2)
         {
-           System.out.print(p + ". ");
-            for (int j =1 ; j<arr20.length +1 ; j++)
-            {
+            counter ++;
+            System.out.print( counter +  ". Podaj Liczbę: ");
+            value = scanner.nextInt();
+            while (value > 10) {
+                System.out.print("Liczba za duża musi być mniejsza od 10: ");
+                value = scanner.nextInt();
 
-                if (p %2 == 0) System.out.print("*");
-                if (p %2 != 0) System.out.print(" ");
             }
-            System.out.println();
+          // coś zamonciłem for ( i = 0; i < array.length; i++)
+                List.add(value);
+                array = List.toArray(array);
         }
-*/
-// wersja by jaro
-
-        char [][] arr202 = new char [10][10];
-        for (int p=1 ; p <arr202.length ; p++)
-        {
-            //arr20[p] = "*";
-            System.out.print(p + ". ");
-            for (int j =1 ; j<arr202.length ; j++)
-            {
-                arr202[p][j] = '*';
-                if (p %2 == 0) System.out.print(arr202[p][j]);
-                if (p %2 != 0) System.out.print(" ");
-            }
-            System.out.println();
-        }
-
-
-
+        System.out.print("Liczby które podałeś znajdują się w tablicy:");
+        System.out.print(Arrays.toString(array));
 
     }
 }

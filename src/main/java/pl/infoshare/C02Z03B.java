@@ -1,12 +1,10 @@
 package pl.infoshare;
-import java.util.Arrays;
-import java.util.Scanner;
-
-
+import javax.swing.text.MaskFormatter;
+import java.text.ParseException;
 /**
  * Trzeci Proogram z zajęć drugich
  */
-public class C02Z03 {
+public class C02Z03B {
     public static void main(String[] args) {
         /*
         Nie mimo importu consoli nie odpala mi ;(
@@ -29,29 +27,20 @@ public class C02Z03 {
         //char[] password = console.readPassword();
 
 
-        String[]  Password =  {"123","321"};
-        String[] Username =  {"user", "admin"};
+        try {
 
-        Scanner input1 = new Scanner(System.in);
-        System.out.print("Nazwa użytkownika : ");
-        String user = input1.next();
+            MaskFormatter f = new MaskFormatter("### ###-####");
 
-        Scanner input2 = new Scanner(System.in);
-        System.out.print("Hasło : ");
-        String pass = input2.next();
+            // Tell it to use literals as well in the mask (the hyphen in our case)
 
-        //if (username.equals(Username) && password.equals(Password)) {
+            f.setValueContainsLiteralCharacters(false);
 
-        if (Arrays.asList(Username).contains(user) && Arrays.asList(Password).contains(pass))
-        {
-            System.out.println("Dostęp uzyskany! \nWitaj: " + user);
+            System.out.println(f.valueToString("1234567890"));
+
         }
-        else if (user.equals(Username)) {
-            System.out.println("Złe hasło!");
-        } else if (pass.equals(Password)) {
-            System.out.println("Błędny użytkownik!");
-        } else {
-            System.out.println("Nie ma takiego konta! \n Uwaga:Wielkość liter ma znaczenie!");
-        }
+
+        catch (ParseException p) { System.out.println(p.toString()); }
+
     }
+
 }

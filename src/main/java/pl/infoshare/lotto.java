@@ -1,39 +1,80 @@
 package pl.infoshare;
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Trzeci Proogram z zajęć drugich
+ * Lotto
  */
-public class C03Z03 {
+public class lotto {
     public static void main(String[] args) {
+        int[] numbers = new int[49];
+        //int[] numbers = new int[49];
+        int[] winningNumbers = new int[6]; //array holding 6 random numbers
+        int[] userNumber = new int[6];//array holding the input
+        Scanner theNumbers = new Scanner(System.in);
+        int guesses;
+        int counter = 0;
+        int i;
 
-
-// wersja by lewis
-        Integer array[] = new Integer[0];
-        ArrayList<Integer> List = new ArrayList<Integer>(Arrays.asList(array));
-        Scanner scanner = new Scanner(System.in);
-        int i = 0 ;
-        Byte counter = 0;
-        Integer value ;
-        // zmieniłem na 3 ;)
-        while (counter <= 2)
-        {
-            counter ++;
-            System.out.print( counter +  ". Podaj Liczbę: ");
-            value = scanner.nextInt();
-            while (value > 10) {
-                System.out.print("Liczba za duża musi być mniejsza od 10: ");
-                value = scanner.nextInt();
-
+        //random
+        for (i = 0; i < winningNumbers.length; i++) {
+            int randomNums = new Random().nextInt(49) + 1;
+            winningNumbers[i] = randomNums;
+            boolean b = Arrays.asList(winningNumbers).contains(randomNums);
+            // System.out.println(b);
+            if (b == true) {
+                i--;
             }
-          // coś zamonciłem for ( i = 0; i < array.length; i++)
-                List.add(value);
-                array = List.toArray(array);
         }
-        System.out.print("Liczby które podałeś znajdują się w tablicy:");
-        System.out.print(Arrays.toString(array));
 
+        //  System.out.print(Arrays.toString(winningNumbers));
+        System.out.println("Podaj 6 cyfr z zakresu od 0 do 49:");
+        for (i = 0; i < userNumber.length; i++) {
+            System.out.print("Liczba " + (i + 1) + ": ");
+            guesses = theNumbers.nextInt();
+            if (guesses > 49 || guesses < 0) {
+                System.out.println("Podaj cyfrę z zakresu!");
+                i--;
+            }
+
+            userNumber[i] = guesses;
+            //  System.out.println(userNumber[i]);
+            if (winningNumbers[i] == userNumber[i]) {
+                counter += 1;
+            }
+        }
+        //System.out.println(winningNumbers);
+        System.out.println("Trafiłeś : " + counter + " liczb!");
+        System.out.print("Zwycięskie liczby to: ");
+        System.out.println(Arrays.toString(winningNumbers));
+
+        switch (counter)
+        {
+            case 6:
+                {
+                    System.out.println("Gratulacje trafiłeś szóstkę ! ;)");
+                break;
+                }
+                case 5:
+                {
+                    System.out.println("Gratulacje trafiłeś 5 ! ;)");
+                    break;
+                }
+                case 4:
+                {
+                    System.out.println("Gratulacje trafiłeś 4 ! ;)");
+                    break;
+                }
+                case 3:
+                {
+                    System.out.println("Gratulacje trafiłeś 3 ! ;)");
+                    break;
+                }
+                default:{
+                    System.out.println("Niestety kasy nie będzie ;(");
+                }
+        }
     }
 }
+

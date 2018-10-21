@@ -1,35 +1,37 @@
 package pl.infoshare;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
+
 
 /**
- * Lotto
+ * Lotto v2
  */
 public class lotto {
     public static void main(String[] args) {
-        int[] numbers = new int[49];
-        int[] winningNumbers = new int[6];
-        int[] userNumber = new int[6];
+
         Scanner theNumbers = new Scanner(System.in);
-        int guesses;
+        ArrayList userNumber = new ArrayList();
         int counter = 0;
         int i;
+        int guesses;
 
-        //random
-        for (i = 0; i < winningNumbers.length; i++) {
-            int randomNums = new Random().nextInt(49) + 1;
-            winningNumbers[i] = randomNums;
-            boolean b = Arrays.asList(winningNumbers).contains(randomNums);
-            // System.out.println(b);
-            if (b == true) {
-                i--;
-            }
+        ArrayList numb = new ArrayList();
+        ArrayList winningNumbers = new ArrayList();
+        for( i = 0; i <= 48; i++)
+        {
+            numb.add(i+1);
         }
+        Collections.shuffle(numb);
 
-        //  System.out.print(Arrays.toString(winningNumbers));
+        for(int j =0; j < 6; j++)
+        {
+            winningNumbers.add(numb.get(j));
+          //  System.out.print(numb.get(j) + " ");
+        }
+        System.out.println(winningNumbers);
+
+
         System.out.println("Podaj 6 cyfr z zakresu od 0 do 49:");
-        for (i = 0; i < userNumber.length; i++) {
+        for (i = 0; i < 6; i++) {
             System.out.print("Liczba " + (i + 1) + ": ");
             guesses = theNumbers.nextInt();
             if (guesses > 49 || guesses < 0) {
@@ -37,16 +39,27 @@ public class lotto {
                 i--;
             }
 
-            userNumber[i] = guesses;
-            //  System.out.println(userNumber[i]);
-            if (winningNumbers[i] == userNumber[i]) {
-                counter += 1;
+            if(userNumber.contains(guesses)){
+                System.out.println("Nie duplikuj liczb");
+                i--;
+                counter--;
             }
+            else {
+                userNumber.add(guesses);
+            }
+
+
+            boolean check = winningNumbers.contains(guesses);
+            if (check) {
+                counter++;
+            }
+
         }
-        //System.out.println(winningNumbers);
+
+
         System.out.println("Trafiłeś : " + counter + " liczb!");
         System.out.print("Zwycięskie liczby to: ");
-        System.out.println(Arrays.toString(winningNumbers));
+        System.out.println(winningNumbers);
 
         switch (counter)
         {

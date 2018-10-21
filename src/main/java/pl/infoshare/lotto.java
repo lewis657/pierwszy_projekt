@@ -27,7 +27,7 @@ public class lotto {
             winningNumbers.add(numb.get(j));
           //  System.out.print(numb.get(j) + " ");
         }
-        System.out.println(winningNumbers);
+      //  System.out.println(winningNumbers);
 
 
         System.out.println("Podaj 6 cyfr z zakresu od 0 do 49:");

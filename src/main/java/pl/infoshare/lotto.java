@@ -42,6 +42,7 @@ public class lotto {
             if(userNumber.contains(guesses)){
                 System.out.println("Nie duplikuj liczb");
                 i--;
+
                 counter--;
             }
             else {

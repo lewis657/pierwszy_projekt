@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44e0b1a4-6162-448d-b740-08fff890c3eb" name="Default Changelist" comment="" />
+    <list default="true" id="44e0b1a4-6162-448d-b740-08fff890c3eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/C04odtyłu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/C04preska.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/infoshare/lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/infoshare/lotto.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,35 +61,37 @@
     <session id="-1005472157">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="122" />
-          <entry key="java" value="5643" />
+          <entry key="java" value="6887" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="122" />
-          <entry key="JAVA" value="5643" />
+          <entry key="JAVA" value="6887" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="13" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="30" />
+          <entry key="java" value="32" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -92,7 +99,8 @@
         <counts>
           <entry key="CLASS" value="13" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="32" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -101,43 +109,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C02Z03B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/dopass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C03Z02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C03preska.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="50" column="9" selection-start-line="49" selection-start-column="5" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="162">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -154,13 +129,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/lotto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C04preska.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C04odtyłu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/joo2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/joo.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -224,6 +237,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/C03Z03.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/C03Z02.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/lotto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/joo2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/C04preska.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/infoshare/C04odtyłu.java" />
       </list>
     </option>
   </component>
@@ -234,8 +250,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="392" />
-    <option name="y" value="210" />
+    <option name="x" value="-97" />
+    <option name="y" value="97" />
     <option name="width" value="1280" />
     <option name="height" value="690" />
   </component>
@@ -247,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,12 +337,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540126416648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540231114161" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -343,18 +359,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pl.infoshare" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="jline" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="groovy.util.GroovyTestCase" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.infoshare" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jline" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lotto">
+  <component name="RunManager" selected="Application.C04odtyłu">
     <configuration name="C02Z01" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.infoshare.C02Z01" />
       <module name="pierwszy_projekt" />
@@ -409,8 +425,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03preska" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.infoshare.C03preska" />
+    <configuration name="C04odtyłu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.infoshare.C04odtyłu" />
       <module name="pierwszy_projekt" />
       <extension name="coverage">
         <pattern>
@@ -422,8 +438,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dopass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.infoshare.dopass" />
+    <configuration name="C04preska" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.infoshare.C04preska" />
       <module name="pierwszy_projekt" />
       <extension name="coverage">
         <pattern>
@@ -450,19 +466,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.C02Z01" />
-      <item itemvalue="Application.dopass" />
-      <item itemvalue="Application.C03preska" />
       <item itemvalue="Application.C03Z02" />
       <item itemvalue="Application.C03Z03" />
       <item itemvalue="Application.lotto" />
+      <item itemvalue="Application.C04preska" />
+      <item itemvalue="Application.C04odtyłu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C04odtyłu" />
+        <item itemvalue="Application.C04preska" />
         <item itemvalue="Application.lotto" />
         <item itemvalue="Application.C03Z03" />
         <item itemvalue="Application.C03Z02" />
-        <item itemvalue="Application.C03preska" />
-        <item itemvalue="Application.dopass" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +521,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -514,7 +530,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="23" y="296" width="1490" height="232" id="Run" order="2" sideWeight="0.6308725" visible="true" weight="0.19830029" />
+      <window_info anchor="bottom" x="23" y="296" width="1490" height="232" id="Run" order="2" sideWeight="0.6308725" weight="0.19263457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,7 +539,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" weight="0.32577905" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50402683" side_tool="true" weight="0.26770538" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49597314" weight="0.34419262" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49597314" weight="0.203966" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -640,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C03preska.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="9" selection-start-line="49" selection-start-column="5" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C03Z03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -718,10 +724,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C03preska.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/joo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/lotto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="126">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C04preska.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/joo2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/infoshare/C04odtyłu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
